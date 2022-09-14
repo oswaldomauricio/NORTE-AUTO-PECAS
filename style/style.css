@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;   
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+
+}
+header img{
+    width: 150px;
+    height: 44px;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.24rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #003399;
+    background: white;
+    padding: 43px;
+    
+}
+
+nav a:hover{
+    color: white;
+    background: #003399;
+    padding: 12px 43px 12px;
+    font-size: 1.24rem;
+    border-radius: 5px;
+    
+}
+/*main*/
+
+/*.galeria{
+    width: 1200px;
+    height: 520px;
+    overflow: hidden;
+    
+}
+
+.galeria .fotos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.galeria .fotos img{
+    width: 19.9%;
+
+}*/
+
+/*teste*/
+.slider{
+    margin: 0 auto;
+    width: 1200px;
+    height: 480px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 480px;
+    display: flex;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+}
+
+
+.slide img{
+    width: 1200px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 1200px;
+    margin-top: -40px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    padding: 0px;
+    cursor: pointer;
+    transition: 0.5ms;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+/*seção de endereço*/
+.endereco-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 60px;
+}
+.endereco-titulo h1{
+    color: #003399;
+}
+
+.endereco .estados{
+    display: flex;
+    justify-content: space-between;
+    background-color: #003399;
+    padding: 30px 0;
+    margin: 0 0 60px 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+
+.endereco .estado button{
+    color: white;
+    background: #003399;
+    font-size: 0.8rem;
+    border: 0;
+}
+.endereco .estado button:hover{
+    color: white;
+    background: #003879;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    width: 150px;
+    height: 60px;
+}
+
+.endereco .estado button h2{
+    margin:0 20px;
+}
+
+/*seção endereço mapas*/
