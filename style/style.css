@@ -170,8 +170,8 @@ nav a:hover{
     color: white;
     background: #003879;
     font-size: 0.8rem;
-    border-radius: 15px;
-    width: 150px;
+    border-radius: 10px;
+    width: auto;
     height: 60px;
 }
 
@@ -180,3 +180,70 @@ nav a:hover{
 }
 
 /*seção endereço mapas*/
+
+.caixa-mapa{
+    background-color: #E3EAF2;
+    width: 340.3px;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.imagens-mapa{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.imagens-mapa .pingo-mapa{
+    width: 40px;
+    height: 55.04px;
+}
+
+.lugar-mapa h2{
+    padding:0 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.313rem;
+    line-height: 25px;
+    color: #003399;
+    margin-bottom: 2px;
+}
+.lugar-mapa h3{
+    padding:0 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #0B7A10;
+}
+
+.mapa-google{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.endereco-mapas{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 65px;
+    justify-items: center;
+    margin: 0 0 60px 0;
+}
+
+/*EMPRESAS PARCEIRAS*/
+
+.imagem-empresas{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 50px;
+    margin: 90px auto;
+}
+.imagem-empresas img{
+    width: 1200px;
+    height: 456px;
+}
